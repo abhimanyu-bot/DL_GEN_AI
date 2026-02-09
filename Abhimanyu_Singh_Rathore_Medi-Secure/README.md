@@ -116,7 +116,7 @@ Medi-Secure-RAG/
 ├── .env                 # Secrets and configuration
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
-
+```
 
 ⚙️ Setup and Installation
 Prerequisites
