@@ -40,7 +40,7 @@ The system is built on a completely local infrastructure to ensure that no patie
 
 ---
 
-## RAG System Improvements (Task 1 Justification)
+## RAG System Improvements
 
 This version incorporates multiple **Advanced RAG techniques** to improve clinical accuracy, faithfulness, and reliability.
 
@@ -54,7 +54,7 @@ This version incorporates multiple **Advanced RAG techniques** to improve clinic
 
 ---
 
-## Evaluation – eval.py (Task 2)
+## Evaluation – eval.py
 
 ### Purpose
 
