@@ -1,8 +1,6 @@
 #  Nike Brand Integrity Auditor  
 ## RAG-Based Policy AI  
 
-**Role:** AI Consultant Project  
-**Client:** Nike Global Brand Integrity & Sustainability Team  
 **Use Case:** Internal Policy Compliance Auditor  
 
 ---
@@ -203,7 +201,7 @@ evaluation_results.csv
 
 ---
 
-# 👨‍💼 Consultant's Note
+# Note
 
 The **Faithfulness Score** is the core KPI of this system.
 
