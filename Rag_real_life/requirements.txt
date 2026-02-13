@@ -1,0 +1,11 @@
+streamlit
+langchain
+chromadb
+pypdf
+sentence-transformers
+rank-bm25
+groq
+python-dotenv
+numpy
+langchain-community
+langchain-text-splitters    

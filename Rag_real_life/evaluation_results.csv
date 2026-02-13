@@ -1,0 +1,50 @@
+Mode,Temperature,Category,Prompt,Latency,Faithfulness,Classification,Full_Response
+Strict Auditor (Fact-Based),0.0,Chemistry,New sneakers using a finishing agent with 500ppm Alkylphenol Ethoxylates (APEOs) for moisture-wicking.,0.92s,0.8,Found in Response,"REASONING: The Nike Chemistry Playbook 2025 document provides the relevant policy context for this analysis. According to the document, the maximum allowable concentration of Total APs + APEOs is 100 ppm. The product description mentions the use of a finishing agent with 500ppm Alkylphenol Ethoxylates (APEOs), which exceeds the threshold of 100 ppm. This indicates a clear violation of Nike's policy.
+
+CLASSIFICATION: VIOLATION
+SOURCES: ChemistryPlaybook_2025_1028.pdf (pages 39, 105)"
+Strict Auditor (Fact-Based),0.0,Conflict Minerals,Sourcing Tantalum from a mine in the DRC that is not yet RMAP compliant.,1.41s,0.6,Found in Response,"REASONING: The provided context includes the Nike-Conflict-Minerals-CY24-Report.pdf, which outlines Nike's policy on conflict minerals. According to this report, Nike utilizes the OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas. The report also mentions that Nike is a member of the RMI and participates in the Responsible Minerals Initiative. The product description mentions sourcing Tantalum from a mine in the DRC that is not yet RMAP compliant. Table 2 in the report shows that there are no smelters or refiners sourcing Tantalum from the Covered Countries, including the DRC. However, the report does not explicitly state that Nike will not source from non-RMAP compliant mines. Nevertheless, as a member of the RMI and participant in the Responsible Minerals Initiative, Nike is expected to adhere to responsible minerals sourcing practices.
+
+CLASSIFICATION: RISK
+SOURCES: 
+- [002_Nike-Conflict-Minerals-CY24-Report.pdf], pages 1-5
+- [002_Nike-Conflict-Minerals-CY24-Report.pdf], Table 2 
+
+Note: The classification is RISK because the product description indicates a potential risk of non-compliance with Nike's conflict minerals policy, although it does not explicitly violate any stated thresholds or restrictions. Further investigation is necessary to determine the compliance status."
+Strict Auditor (Fact-Based),0.0,Labor Standards,A factory requesting a 72-hour work week for the holiday rush with 1.5x overtime pay.,1.01s,0.9,Found in Response,"REASONING: The Nike policy documents provided, specifically the ""Nike-Inc.-Code-Leadership-Standards-2025---English.pdf"" and ""[CODE OF CONDUCT.pdf]"", outline the standards for working hours. According to these documents, the regular work week must not exceed 48 hours, and total hours per week, including overtime, cannot exceed 60 hours unless justified by extraordinary circumstances. The facility must also allow workers at least 24 consecutive hours of rest in every seven-day period, and all overtime work must be consensual. In the given product description, the factory is requesting a 72-hour work week, which exceeds the 60-hour limit specified in the Nike policy documents. Additionally, there is no mention of the request being due to extraordinary circumstances, which is the only exception to the 60-hour limit.
+
+CLASSIFICATION: VIOLATION
+SOURCES: 
+- Nike-Inc.-Code-Leadership-Standards-2025---English.pdf, pages 155
+- [CODE OF CONDUCT.pdf], section ""Working Hours Are Not Excessive"""
+Strict Auditor (Fact-Based),0.0,Sustainability,A new apparel line using 100% recycled polyester from GRS-certified suppliers.,1.09s,0.8,Found in Response,"REASONING: The product description mentions the use of 100% recycled polyester from GRS-certified suppliers. According to the Nike Chemistry Playbook 2025 (pages 104 and 126), Nike requires facilities providing recycled content to be certified to the Textile Exchange Global Recycled Standard (GRS) or the Recycled Claim Standard. The product description meets this requirement. Additionally, the Nike Chemistry Playbook 2025 states that all recycled materials must comply with RSL limits and any applicable legal and regulatory requirements. Since the product description does not mention any specific chemical composition or testing results, we must assume that the supplier has complied with the RSL requirements. The use of 100% recycled polyester is in line with Nike's vision of a circular future and reducing environmental impact.
+
+CLASSIFICATION: COMPLIANT
+SOURCES: 
+- ChemistryPlaybook_2025_1028.pdf (pages 104 and 126)
+- Raw_Materials_Playbook_2025_0917_Public.pdf (page 4)"
+Creative Strategist,0.8,Chemistry,New sneakers using a finishing agent with 500ppm Alkylphenol Ethoxylates (APEOs) for moisture-wicking.,1.02s,0.5,Found in Response,"REASONING: The Nike Chemistry Playbook 2025 document provides the necessary guidelines for the use of Alkylphenol Ethoxylates (APEOs) in Nike products. According to page 39 of the document, the maximum allowable concentration of Total APs + APEOs is 100 ppm. The product description mentions the use of a finishing agent with 500 ppm APEOs, which exceeds the maximum allowable concentration specified in the Nike Chemistry Playbook.
+
+CLASSIFICATION: VIOLATION
+SOURCES: ChemistryPlaybook_2025_1028.pdf (page 39)"
+Creative Strategist,0.8,Conflict Minerals,Sourcing Tantalum from a mine in the DRC that is not yet RMAP compliant.,1.05s,0.5,Found in Response,"REASONING: The provided context includes the Nike-Conflict-Minerals-CY24-Report.pdf, which outlines Nike's policies and procedures for responsible mineral sourcing. According to Table 2: Country of Origin of 3TG, there are no identified smelters or refiners sourcing Tantalum from the Covered Countries, including the Democratic Republic of the Congo (DRC). The report also mentions that Nike utilizes the OECD Due Diligence Guidance framework to determine the mine or location of origin for the Covered 3TG. However, the report does not provide a specific threshold or restriction for sourcing from non-RMAP compliant mines. Nevertheless, it is implied that Nike strives to source from compliant suppliers. Sourcing Tantalum from a mine in the DRC that is not yet RMAP compliant may pose a risk to Nike's commitment to responsible mineral sourcing.
+
+CLASSIFICATION: RISK
+SOURCES: 
+- [002_Nike-Conflict-Minerals-CY24-Report.pdf], pages containing Table 2: Country of Origin of 3TG and references to the OECD Due Diligence Guidance framework."
+Creative Strategist,0.8,Labor Standards,A factory requesting a 72-hour work week for the holiday rush with 1.5x overtime pay.,1.12s,0.8,Found in Response,"REASONING: The Nike policy document applicable in this scenario is the ""Nike Inc. Code Leadership Standards 2025---English.pdf"" and the ""CODE OF CONDUCT.pdf"". According to these documents, the regular work week must not exceed 48 hours, and total hours per week, including overtime, cannot exceed 60 hours, unless justified by extraordinary circumstances. The product description mentions a 72-hour work week, which exceeds the 60-hour threshold. Additionally, the documents state that overtime work must be consensual and compensated at a premium rate, but the product description does not provide information on the consensuality of the overtime work. However, it does mention 1.5x overtime pay, which is higher than the required 125% premium rate.
+
+CLASSIFICATION: VIOLATION
+SOURCES: 
+- Nike Inc. Code Leadership Standards 2025---English.pdf, pages 155
+- CODE OF CONDUCT.pdf, section ""Working Hours Are Not Excessive"" 
+
+Note: The factory's request for a 72-hour work week exceeds the 60-hour threshold, which is a clear violation of Nike's policy, unless extraordinary circumstances are justified. The 1.5x overtime pay is compliant with the premium rate requirement, but it does not justify the excessive work hours."
+Creative Strategist,0.8,Sustainability,A new apparel line using 100% recycled polyester from GRS-certified suppliers.,1.43s,0.8,Found in Response,"REASONING: The provided product description states that the apparel line uses 100% recycled polyester from GRS-certified suppliers. According to the Nike Chemistry Playbook, Nike requires facilities providing recycled content to be certified to the Textile Exchange Global Recycled Standard (GRS) or the Recycled Claim Standard. The product description meets this requirement by stating that the suppliers are GRS-certified. Additionally, the Nike Chemistry Playbook states that all recycled materials must comply with RSL limits and any applicable legal and regulatory requirements. However, the product description does not provide information on the chemical compliance of the recycled polyester. Nevertheless, the use of GRS-certified suppliers suggests that the material has undergone some level of chemical assessment and testing. 
+
+CLASSIFICATION: COMPLIANT
+SOURCES: 
+- ChemistryPlaybook_2025_1028.pdf (pages not specified, but relevant sections include RECYCLING CERTIFICATION and NIKE RSL REQUIREMENTS FOR RECYCLED MATERIALS)
+- Raw_Materials_Playbook_2025_0917_Public.pdf (page 4, CERTIFICATIONS section) 
+
+Note: Although the product description does not provide explicit information on chemical compliance, the use of GRS-certified suppliers and the fact that Nike requires chemical assessments for all materials, including recycled materials, suggests that the apparel line is likely to be compliant with Nike's RSL requirements. However, a more detailed assessment of the product's chemical compliance would be necessary to confirm this classification."
